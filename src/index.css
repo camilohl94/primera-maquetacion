@@ -49,9 +49,10 @@ height: 90%;
 display: flex;
 justify-content: space-evenly;
 align-items: center;
+flex-wrap: wrap;
 }
 .contenido main div img{
-  display: -ms-flexbox;
+  display: inline-block;
   width:200px;
   height: 200px;
   border: solid 1px black;
